@@ -4,7 +4,7 @@ const { getToken } = require("../util");
 var router = express.Router();
 
 router.get("/", function (req, res, next) {
-  res.send("respond with a resource");
+  res.send("hey i am working");
 });
 router.post("/register", async (req, res) => {
   console.log(req.body);
